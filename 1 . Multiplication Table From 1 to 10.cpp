@@ -18,7 +18,7 @@ string ColumSperator(int i)
 	if (i < 10) 
 		return"  |"; 
 	else
-		return"   |";
+		return" |";
 } 
 
 void PrintMultiplicationTable()
