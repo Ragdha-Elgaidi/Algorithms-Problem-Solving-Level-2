@@ -239,7 +239,8 @@ void StartGame()
 	{
 		ResetScreen();
 		stGameResults GameResults = PlayGame(ReadHowManyRounds());
-		ShowGameOverScreen();  ShowFinalGameResults(GameResults);
+		ShowGameOverScreen(); 
+		ShowFinalGameResults(GameResults);
 
 		cout << endl << Tabs(3) << "Do you want to play again? Y/N? ";
 		cin >> PlayAgain;
